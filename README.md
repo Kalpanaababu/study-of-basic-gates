@@ -59,21 +59,42 @@ Y= A⊕B
 
 4.	Create nodes for inputs and outputs to generate the timing diagram.
 
-5.	For different input combinations generate the timing diagram.
+5.	For different input comb
+6.	inations generate the timing diagram.
 
 
 **PROGRAM**
+```
+module experim1(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
+output c1,c2,c3,c4,c5,c6,c7;
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b); 
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+endmodule
+```
 
- Developed by: RegisterNumber: 
+ Developed by: Kalpanaa Babu T.M 
+ 
+ RegisterNumber: 212224230112
+ 
+ Date:15/04/25
+ 
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2025-04-15 at 11 34 27_c9264615](https://github.com/user-attachments/assets/49cfeeca-c6b1-4bd3-b2ae-81792f3df48d)
 
 **RTL realization Output:** 
+![Screenshot 2025-04-15 112919](https://github.com/user-attachments/assets/5ef5e078-d6a4-46c6-8ca0-ffe87d4ae9db)
 
 **RTL**
+![Screenshot 2025-04-15 131711](https://github.com/user-attachments/assets/5d755b8b-63f3-4be8-ae1e-1ff89e442c96)
 
 **Result:**
-
+Thus the truth table of logic gates in Quartus II using Verilog programming is studied and verified.
 
